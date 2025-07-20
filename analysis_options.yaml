@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Additional strict rules for package quality
+    public_member_api_docs: true
+    lines_longer_than_80_chars: true
+    avoid_classes_with_only_static_members: false
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"

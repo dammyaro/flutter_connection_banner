@@ -1,0 +1,39 @@
+name: flutter_connection_banner
+description: A smart, beautiful internet connection status banner for Flutter applications with contextual intelligence and premium UX.
+version: 0.1.0
+homepage: https://github.com/yourusername/flutter_connection_banner
+repository: https://github.com/yourusername/flutter_connection_banner
+issue_tracker: https://github.com/yourusername/flutter_connection_banner/issues
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^5.0.2
+  http: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+# Ensure proper pub.dev scoring
+topics:
+  - flutter
+  - widget
+  - internet
+  - connectivity
+  - banner
+  - ui
+  - networking
+
+screenshots:
+  - description: 'Basic connection banner in action'
+    path: screenshots/basic_banner.png
+  - description: 'Customized banner with actions'
+    path: screenshots/custom_banner.png
